@@ -1,0 +1,50 @@
+.carousel {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+  }
+  .carousel-caption h5,
+  .carousel-caption p {
+    color: white;
+    
+  }
+  
+  .img1{
+    width: 30%;
+    display: block;
+    margin: auto;
+  }
+  .img2{
+    width: 30%;
+    display: block;
+    margin: auto;
+  }
+  .img3{
+    width: 30%;
+    display: block;
+    margin: auto;
+  }
+
+  .text-desc{
+    background-color: black ;
+    width: 20%;
+    margin: auto;
+    
+  }
+
+
+  .destacados{
+    color: black;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 70px;
+    text-align: center;
+  }
+  
+  

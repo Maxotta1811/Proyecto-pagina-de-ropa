@@ -18,4 +18,4 @@ const Novedades = () => {
   )
 }
 
-export default Novedades 
+export default Novedades

@@ -1,3 +1,4 @@
+import { useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -8,6 +9,10 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
 function OffcanvasExample() {
+
+  const [busqueda, setBusqueda] = useState("");
+
+
   return (
     <>
       {[false].map((expand) => (
@@ -45,15 +50,24 @@ function OffcanvasExample() {
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
-                <Form className="d-flex">
-                  <Form.Control
+
+                <Form className="d-flex"
+                onSubmit={ev=>{
+                  ev.preventDefault();
+                }}
+                >
+                  <input
                     type="search"
                     placeholder="Buscar"
-                    className="me-2"
+                    className="me-2 p-1"
                     aria-label="Search"
+                    value={busqueda}
+                    onChange={ev=> setBusqueda(ev.target.value)}
                   />
-                  <Button variant="outline-success">Buscar</Button>
+                  <Button variant="outline-success" type='submit' >Buscar</Button>
                 </Form>
+
+
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>

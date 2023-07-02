@@ -14,6 +14,7 @@ import Buzos from './Componentes/Buzos'
 import Novedades from './Componentes/Novedades'
 import Camisas from './Componentes/Camisas'
 
+
 const App = () => {
   return (
     <>
@@ -95,10 +96,6 @@ const App = () => {
             }
 
             />
-
-
-
-
         </Routes>
       </Router>
 

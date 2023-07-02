@@ -1,0 +1,75 @@
+.formulario-indumentaria {
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+    height: 415px;
+    margin: 0 auto;
+    background-color: #141414;
+    margin-top: 90px;
+
+  }
+
+.titform{
+    color: rgb(248, 232, 232);
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.titform2{
+    color: rgb(248, 232, 232);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.video{
+    width: 230px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-left: 950px;
+    margin-top: -270px;
+    overflow: visible;
+  }
+  
+  .msjsuscripto{
+    color: rgb(233, 233, 233);
+    font-size: 15px;
+    margin-top: 18px;
+    margin-left: 50px;
+  }
+
+  .formulario-indumentaria__campo {
+    margin-bottom: 1rem;
+    margin-top: 25px;
+  }
+  
+  .formulario-indumentaria label {
+    font-weight: bold;
+    color: rgb(248, 232, 232);
+    margin-left: 150px;
+    margin-top:20px ;
+  }
+  
+  .formulario-indumentaria input,
+  .formulario-indumentaria textarea {
+    padding: 0.1rem;
+    border: 1px solid rgb(248, 232, 232);
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+  
+  .formulario-indumentaria button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: rgb(248, 232, 232);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .formulario-indumentaria button:hover {
+    background-color: #0056b3;
+  }

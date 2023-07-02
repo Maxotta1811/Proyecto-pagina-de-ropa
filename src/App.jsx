@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from './Componentes/Header'
 import Nav from './Componentes/Nav'
 import DarkVariantExample from './Componentes/Carrusel2'
@@ -6,14 +5,14 @@ import Galeria from './Componentes/Galeria'
 import SlidingAd from './Componentes/barra'
 import Footer from './Componentes/Footer'
 import TeamSection from './Componentes/Nosostros2'
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Pantalones from './Componentes/Pantalones'
 import Remerones from './Componentes/remerones'
 import Buzos from './Componentes/Buzos'
 import Novedades from './Componentes/Novedades'
 import Camisas from './Componentes/Camisas'
-
+import Formulario from './Componentes/Formulario'
 
 const App = () => {
   return (
@@ -31,6 +30,7 @@ const App = () => {
                 < DarkVariantExample />
                 <Galeria />
                 <Novedades />
+                <Formulario/>
                 <TeamSection />
                 <Footer />
 

@@ -36,7 +36,7 @@ const FormularioIndumentaria = () => {
                 />
             </div>
             <div className="formulario-indumentaria__campo">
-                <label htmlFor="correo">Correo electrónico:</label>
+                <label htmlFor="correo">E - Mail :</label>
                 <input
                     type="email"
                     id="correo"

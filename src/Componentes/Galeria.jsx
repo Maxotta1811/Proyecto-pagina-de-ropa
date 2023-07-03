@@ -1,4 +1,3 @@
-import React from 'react'
 import imgbuzoportada from '../Imagenes/imgbuzoportada.jpg'
 import imgremeronesportada from '../Imagenes/imgremeronesportada.jpg'
 import imgcamisasportada from '../Imagenes/imgcamisasportada.jpg'

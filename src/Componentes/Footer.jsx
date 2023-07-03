@@ -1,4 +1,3 @@
-import React from 'react';
 import "../styles/Footer.css"
 import facebook from '../Imagenes/facebook.svg'
 import instagram from '../Imagenes/instagram.svg'
@@ -11,12 +10,12 @@ function Footer() {
                     <h3>Síguenos en redes sociales</h3>
                     <ul>
                         <li>
-                            <a className='social-icon' href="https://www.instagram.com/kingofthekongo/" target="_blank">
+                            <a className='social-icon' href="https://www.instagram.com/kingofthekongo/" target="_blank" rel="noreferrer">
                                 <img className='icon' src={instagram} alt="Instagram" />
                             </a>
                         </li>
                         <li>
-                            <a className='social-icon' href="https://www.facebook.com/tu_pagina_de_facebook" target="_blank">
+                            <a className='social-icon' href="https://www.facebook.com/tu_pagina_de_facebook" target="_blank" rel="noreferrer">
                                 <img className='icon' src={facebook} alt="Facebook" />
                             </a>
                         </li>

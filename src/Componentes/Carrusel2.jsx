@@ -1,4 +1,3 @@
-import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import imgdestacados1 from '../Imagenes/imgdestacados1.jpg'
 import imgdestacados2 from '../Imagenes/imgdestacados2.jpg'
